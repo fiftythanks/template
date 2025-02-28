@@ -350,6 +350,7 @@ export const timer = {
             `There are several tasks with this name:${filteredTasksString}\n\nWhich one do you wish to focus on at the moment? (Type in the number.)`,
           );
         }
+        ///
         if (
           Number.parseInt(position) < 0 ||
           Number.parseInt(position) >= taskList.areThereDuplicates(name)
