@@ -1,2 +1,2 @@
-# template
-Template repository with ESLint and Prettier configured for vanilla JS.
+# Template repository
+With ESLint and Prettier configured for vanilla JS.
