@@ -8,6 +8,7 @@
     "prepare": "husky",
     "start": "webpack serve --open-app-name 'google-chrome' --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
+    "first-deploy": "git checkout -b gh-pages && git merge main --no-edit && npm run build && git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin gh-pages && git checkout main",
     "deploy": "git checkout gh-pages && git merge main --no-edit && npm run build && git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin gh-pages && git checkout main"
   },
   "keywords": [],
