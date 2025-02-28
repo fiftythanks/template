@@ -20,7 +20,7 @@
     "prettier": "3.5.2"
   },
   "lint-staged": {
-    "!(node_modules/**)*.js": [
+    "!(node_modules/**/*)*.js": [
       "eslint --check --fix",
       "prettier --write --ignore-unknown"
     ],
