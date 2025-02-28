@@ -30,6 +30,8 @@ webpack:
 
 Instructions for building from scratch:
 
-- "[webpack](https://www.theodinproject.com/lessons/javascript-webpack)", The Odin Project — for basic webpack installation and configuration
-- "[Asset Management](https://webpack.js.org/guides/asset-management/)", webpack — for more information on asset management
-- "[Production](https://webpack.js.org/guides/production/)", webpack ­— for dividing webpack.config.js in three separate configs
+- "[webpack](https://www.theodinproject.com/lessons/javascript-webpack)", The Odin Project. — For basic webpack installation and configuration.
+- "[Asset Management](https://webpack.js.org/guides/asset-management/)", webpack. — For more information on asset management.
+- "[Production](https://webpack.js.org/guides/production/)", webpack. ­— For dividing webpack.config.js in three separate configs.
+
+When using the template, you should remove all unnecessary webpack-plugins for asset management.
