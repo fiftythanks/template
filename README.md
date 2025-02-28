@@ -1,6 +1,6 @@
-# Template repository
+# Template Repository
 
-Linting and formatting:
+**Linting and formatting:**
 
 - ESLint v8.57.1
 - eslint-config-airbnb-base
@@ -17,7 +17,7 @@ Instructions for building from scratch:
 - [Prettier](https://prettier.io/docs/install)
 - [lint-staged](https://github.com/lint-staged/lint-staged#configuration)
 
-webpack:
+**webpack:**
 
 - webpack
 - webpack-cli
@@ -34,4 +34,6 @@ Instructions for building from scratch:
 - "[Asset Management](https://webpack.js.org/guides/asset-management/)", webpack. — For more information on asset management.
 - "[Production](https://webpack.js.org/guides/production/)", webpack. ­— For dividing webpack.config.js in three separate configs.
 
-When using the template, you should remove all unnecessary webpack-plugins for asset management.
+---
+
+When using the template, you should remove all unnecessary webpack plugins for asset management.
