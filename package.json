@@ -24,6 +24,6 @@
       "eslint --fix",
       "prettier --write --ignore-unknown"
     ],
-    "!(node_modules/**)/*.{html,css,json}": "prettier --write --ignore-unknown"
+    "!(node_modules/**/*)*.{html,css,json}": "prettier --write --ignore-unknown"
   }
 }
