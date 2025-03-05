@@ -34,7 +34,7 @@ Instructions for building from scratch:
 - “[Asset Management](https://webpack.js.org/guides/asset-management/)”, webpack. — For more information on asset management.
 - “[Production](https://webpack.js.org/guides/production/)”, webpack. ­— For dividing webpack.config.js in three separate configs.
 
-**Babel**
+**Babel:**
 
 - babel-loader
 - @babel/core
@@ -44,7 +44,6 @@ Instructions for building from scratch:
 
 - “What is ES6?”, The Odin Project.
 - [babel-loader](https://github.com/babel/babel-loader).
--
 
 ---
 
