@@ -11,6 +11,7 @@
     "first-deploy": "git checkout -b gh-pages && git merge main --no-edit && npm run build && git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin gh-pages && git checkout main",
     "deploy": "git checkout gh-pages && git merge main --no-edit && npm run build && git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin gh-pages && git checkout main",
     "p": "git add . && git commit && git push origin main",
+    "first-pd": "npm run p && npm run first-deploy",
     "pd": "npm run p && npm run deploy"
   },
   "keywords": [],
