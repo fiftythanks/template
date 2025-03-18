@@ -8,10 +8,8 @@
     "prepare": "husky",
     "start": "webpack serve --open-app-name 'google-chrome' --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "first-deploy": "git checkout -b gh-pages && git merge main --no-edit && npm run build && git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin gh-pages && git checkout main",
-    "deploy": "git checkout gh-pages && git merge main --no-edit && npm run build && git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin gh-pages && git checkout main",
     "p": "git add . && git commit && git push origin main",
-    "first-pd": "npm run p && npm run first-deploy",
+    "d": "git checkout gh-pages 2>/dev/null || git checkout -b gh-pages && git merge main --no-edit && npm run build && git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin gh-pages && git checkout main",
     "pd": "npm run p && npm run deploy"
   },
   "keywords": [],
@@ -21,6 +19,7 @@
     "@babel/core": "^7.26.9",
     "@babel/preset-env": "^7.26.9",
     "babel-loader": "^10.0.0",
+    "babel-plugin-module-resolver": "^5.0.2",
     "css-loader": "^7.1.2",
     "eslint": "^8.57.1",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -38,7 +37,7 @@
     "webpack-merge": "^6.0.1"
   },
   "lint-staged": {
-    "src/**/*.js": [
+    "src/**/*.{mjs,js}": [
       "eslint --fix",
       "prettier --write --ignore-unknown"
     ],
