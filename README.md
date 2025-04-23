@@ -45,6 +45,15 @@ Instructions for building from scratch:
 - “What is ES6?”, The Odin Project.
 - [babel-loader](https://github.com/babel/babel-loader).
 
+**Jest:**
+
+- jest
+- babel-jest
+
+Instructions for building from scratch:
+
+- [Getting Started](https://jestjs.io/docs/getting-started#using-babel) (sections “[Generate a basic configuration file](https://jestjs.io/docs/getting-started#generate-a-basic-configuration-file)” and “[Using Babel](https://jestjs.io/docs/getting-started#using-babel)”), Jest docs.
+
 ---
 
 When using the template, you should remove all unnecessary webpack plugins for asset management.
