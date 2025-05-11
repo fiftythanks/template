@@ -66,3 +66,17 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+// ----- Other style rules (not belonging to the Josh Comeau's reset -----
+
+// This is to stop animations for people that explicitly notified their system that they prefer reduced motion.
+@media screen and (prefers-reduced-motion: reduce) {
+  * {
+    // Very short durations means JavaScript that relies on events still works
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+// Ideally, use prefers-contrast, inverted-colors, prefers-color-scheme media features as well in all your projects
