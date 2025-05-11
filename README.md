@@ -54,6 +54,16 @@ Instructions for building from scratch:
 
 - [Getting Started](https://jestjs.io/docs/getting-started#using-babel) (sections “[Generate a basic configuration file](https://jestjs.io/docs/getting-started#generate-a-basic-configuration-file)” and “[Using Babel](https://jestjs.io/docs/getting-started#using-babel)”), Jest docs.
 
+**Sass:**
+
+- sass-embedded
+- sass-loader
+
+Instructions for building from scratch:
+
+- [Sass-embedded](https://sass-lang.com/install/), Sass docs.
+- [Sass-loader](https://webpack.js.org/loaders/sass-loader/#root), webpack docs.
+
 ---
 
 When using the template, you should remove all unnecessary webpack plugins for asset management.
