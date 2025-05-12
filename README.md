@@ -2,20 +2,20 @@
 
 **Linting and formatting:**
 
-- ESLint v8.57.1
-- eslint-config-airbnb-base
-- eslint-config-prettier
-- eslint-plugin-import
-- Prettier v3.5.2 (“singleQuote”: true)
-- husky and lint-staged for the pre-commit hook
+- ESLint v8.57.1.
+- eslint-config-airbnb-base.
+- eslint-config-prettier.
+- eslint-plugin-import.
+- Prettier v3.5.2 ("singleQuote": true).
+- husky and lint-staged for the pre-commit hook.
 
 Instructions for building from scratch:
 
-- “[Linting](https://www.theodinproject.com/lessons/node-path-javascript-linting)”, The Odin Project
-- [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
-- [ESLint v8.57.1](https://eslint.org/docs/v8.x/use/getting-started)
-- [Prettier](https://prettier.io/docs/install)
-- [lint-staged](https://github.com/lint-staged/lint-staged#configuration)
+- “[Linting](https://www.theodinproject.com/lessons/node-path-javascript-linting)”, The Odin Project.
+- [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base).
+- [ESLint v8.57.1](https://eslint.org/docs/v8.x/use/getting-started).
+- [Prettier](https://prettier.io/docs/install).
+- [lint-staged](https://github.com/lint-staged/lint-staged#configuration).
 
 **webpack:**
 
@@ -52,7 +52,7 @@ Instructions for building from scratch:
 
 Instructions for building from scratch:
 
-- [Getting Started](https://jestjs.io/docs/getting-started#using-babel) (sections “[Generate a basic configuration file](https://jestjs.io/docs/getting-started#generate-a-basic-configuration-file)” and “[Using Babel](https://jestjs.io/docs/getting-started#using-babel)”), Jest docs.
+- [Getting Started](https://jestjs.io/docs/getting-started#using-babel) (sections “[Generate a basic configuration file](https://jestjs.io/docs/getting-started#generate-a-basic-configuration-file)” and “[Using Babel](https://jestjs.io/docs/getting-started#using-babel)”), Jest.
 
 **Sass:**
 
@@ -61,8 +61,8 @@ Instructions for building from scratch:
 
 Instructions for building from scratch:
 
-- [Sass-embedded](https://sass-lang.com/install/), Sass docs.
-- [Sass-loader](https://webpack.js.org/loaders/sass-loader/#root), webpack docs.
+- [Sass-embedded](https://sass-lang.com/install/), Sass.
+- [Sass-loader](https://webpack.js.org/loaders/sass-loader/#root), webpack.
 
 ---
 
