@@ -3,19 +3,24 @@
 **Linting and formatting:**
 
 - ESLint v8.57.1.
-- eslint-config-airbnb-base.
-- eslint-config-prettier.
-- eslint-plugin-import.
+  - eslint-config-airbnb-base.
+  - eslint-config-prettier.
+  - eslint-plugin-import.
 - Prettier v3.5.2 (`"singleQuote": true`).
 - husky and lint-staged for the pre-commit hook.
+- Stylelint for CSS linting.
+  - stylelint-config-sass-guidelines to support Sass files and lint according to the [Sass Guidelines](https://sass-guidelin.es).
+  - PostCSS — as a dependency for stylelint-config-sass-guidelines.
 
 Instructions for building from scratch:
 
 - “[Linting](https://www.theodinproject.com/lessons/node-path-javascript-linting)”, The Odin Project.
-- [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base).
-- [ESLint v8.57.1](https://eslint.org/docs/v8.x/use/getting-started).
-- [Prettier](https://prettier.io/docs/install).
-- [lint-staged](https://github.com/lint-staged/lint-staged#configuration).
+- [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base), GitHub.
+- [ESLint v8.57.1](https://eslint.org/docs/v8.x/use/getting-started), ESLint.
+- [Prettier](https://prettier.io/docs/install), Prettier.
+- [lint-staged](https://github.com/lint-staged/lint-staged#configuration), GitHub.
+- “[Getting Started](https://stylelint.io/user-guide/get-started)”, Stylelint.
+- [stylelint-config-sass-guidelines](https://www.npmjs.com/package/stylelint-config-sass-guidelines), npm.
 
 **webpack:**
 
@@ -42,7 +47,7 @@ Instructions for building from scratch:
 
 Instructions for building from scratch:
 
-- “What is ES6?”, The Odin Project.
+- “[What is ES6?](https://www.theodinproject.com/lessons/node-path-javascript-what-is-es6)”, The Odin Project.
 - [babel-loader](https://github.com/babel/babel-loader).
 
 **Jest:**
