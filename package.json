@@ -52,7 +52,7 @@
     ],
     "src/**/*.{html,css,json}": "prettier --write --ignore-unknown",
     "src/**/*.scss": [
-      "stylelint",
+      "stylelint --fix",
       "prettier --write --ignore-unknown"
     ]
   }
