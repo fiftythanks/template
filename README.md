@@ -76,10 +76,12 @@ Instructions for building from scratch:
 
 - postcss.
 - postcss-loader. — For webpack.
+- autoprefixer.
 
 Instructions for building from scratch:
 
 - “[Setup](https://github.com/postcss/postcss#usage)”, GitHub.
+- [autoprefixer](https://github.com/postcss/autoprefixer), GitHub.
 
 ---
 
