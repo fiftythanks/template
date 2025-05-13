@@ -77,6 +77,10 @@ Instructions for building from scratch:
 - postcss.
 - postcss-loader. — For webpack.
 
+Instructions for building from scratch:
+
+- “[Setup](https://github.com/postcss/postcss#usage)”, GitHub.
+
 ---
 
 When using the template, you should remove all unnecessary webpack plugins for asset management.
