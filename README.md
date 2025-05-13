@@ -6,7 +6,7 @@
 - eslint-config-airbnb-base.
 - eslint-config-prettier.
 - eslint-plugin-import.
-- Prettier v3.5.2 ("singleQuote": true).
+- Prettier v3.5.2 (`"singleQuote": true`).
 - husky and lint-staged for the pre-commit hook.
 
 Instructions for building from scratch:
