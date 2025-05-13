@@ -43,7 +43,7 @@ Instructions for building from scratch:
 
 **Babel:**
 
-- babel-loader
+- babel-loader. — For webpack.
 - @babel/core
 - @babel/preset-env
 
@@ -63,14 +63,19 @@ Instructions for building from scratch:
 
 **Sass:**
 
-- sass-embedded
-- sass-loader
+- sass-embedded.
+- sass-loader. — For webpack.
 
 Instructions for building from scratch:
 
 - [Sass-embedded](https://sass-lang.com/install/), Sass.
 - [Sass-loader](https://webpack.js.org/loaders/sass-loader/#root), webpack.
 - Architecture: “7-1”. Read more on [Sass Guidelines](https://sass-guidelin.es/#architecture).
+
+**PostCSS:**
+
+- postcss.
+- postcss-loader. — For webpack.
 
 ---
 
