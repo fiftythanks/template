@@ -6,11 +6,13 @@
   - eslint-config-airbnb-base.
   - eslint-config-prettier.
   - eslint-plugin-import.
+  - eslint-webpack-plugin. — To add JS linting as a pre-build step.
 - Prettier v3.5.2 (`"singleQuote": true`).
 - husky and lint-staged for the pre-commit hook.
 - Stylelint for CSS linting.
   - stylelint-config-sass-guidelines to support Sass files and lint according to the [Sass Guidelines](https://sass-guidelin.es).
   - PostCSS — as a dependency for stylelint-config-sass-guidelines.
+  - stylelint-webpack-plugin. — To add CSS linting as a pre-build step.
 
 Instructions for building from scratch:
 

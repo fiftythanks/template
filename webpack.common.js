@@ -1,5 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ESLintPlugin = require('eslint-webpack-plugin');
+const StylelintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -10,6 +12,8 @@ module.exports = {
       title: 'Production',
       template: './src/template.html',
     }),
+    new ESLintPlugin({ configType: 'eslintrc' }),
+    new StylelintPlugin({}),
   ],
   output: {
     filename: '[name].bundle.js',
