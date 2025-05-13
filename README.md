@@ -10,8 +10,8 @@
 - Prettier v3.5.2 (`"singleQuote": true`).
 - husky and lint-staged for the pre-commit hook.
 - Stylelint for CSS linting.
-  - stylelint-config-sass-guidelines to support Sass files and lint according to the [Sass Guidelines](https://sass-guidelin.es).
-  - PostCSS — as a dependency for stylelint-config-sass-guidelines.
+  - stylelint-config-sass-guidelines. — To support Sass files and lint according to the [Sass Guidelines](https://sass-guidelin.es).
+  - PostCSS. — As a dependency for stylelint-config-sass-guidelines.
   - stylelint-webpack-plugin. — To add CSS linting as a pre-build step.
 
 Instructions for building from scratch:
@@ -50,7 +50,7 @@ Instructions for building from scratch:
 Instructions for building from scratch:
 
 - “[What is ES6?](https://www.theodinproject.com/lessons/node-path-javascript-what-is-es6)”, The Odin Project.
-- [babel-loader](https://github.com/babel/babel-loader).
+- [babel-loader](https://github.com/babel/babel-loader), GitHub.
 
 **Jest:**
 
@@ -59,7 +59,7 @@ Instructions for building from scratch:
 
 Instructions for building from scratch:
 
-- [Getting Started](https://jestjs.io/docs/getting-started#using-babel) (sections “[Generate a basic configuration file](https://jestjs.io/docs/getting-started#generate-a-basic-configuration-file)” and “[Using Babel](https://jestjs.io/docs/getting-started#using-babel)”), Jest.
+- “[Getting Started](https://jestjs.io/docs/getting-started#using-babel)” (sections “[Generate a basic configuration file](https://jestjs.io/docs/getting-started#generate-a-basic-configuration-file)” and “[Using Babel](https://jestjs.io/docs/getting-started#using-babel)”), Jest.
 
 **Sass:**
 
@@ -80,7 +80,7 @@ Instructions for building from scratch:
 
 Instructions for building from scratch:
 
-- “[Setup](https://github.com/postcss/postcss#usage)”, GitHub.
+- [Setup](https://github.com/postcss/postcss#usage), GitHub.
 - [autoprefixer](https://github.com/postcss/autoprefixer), GitHub.
 
 ---
