@@ -28,7 +28,15 @@ module.exports = {
           // Creates `style` nodes from JS strings
           'style-loader',
           // Translates CSS into CommonJS
-          'css-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              // The number of loaders applied before CSS loader
+              importLoaders: 2,
+            },
+          },
+          // Processes CSS with PostCSS
+          'postcss-loader',
           // Compiles Sass to CSS
           'sass-loader',
         ],
