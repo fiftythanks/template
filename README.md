@@ -54,7 +54,7 @@ Instructions for building from scratch:
 
 **Jest:**
 
-- jest
+- Jest
 - babel-jest
 
 Instructions for building from scratch:
@@ -74,7 +74,7 @@ Instructions for building from scratch:
 
 **PostCSS:**
 
-- postcss.
+- PostCSS.
 - postcss-loader. — For webpack.
 - autoprefixer.
 
@@ -82,6 +82,16 @@ Instructions for building from scratch:
 
 - [Setup](https://github.com/postcss/postcss#usage), GitHub.
 - [autoprefixer](https://github.com/postcss/autoprefixer), GitHub.
+
+**JSDoc:**
+
+- JSDoc
+- eslint-plugin-jsdoc
+
+Instructions for building from scratch:
+
+- “[Leveraging JSDoc for Better Code Documentation in JavaScript](https://www.pullrequest.com/blog/leveraging-jsdoc-for-better-code-documentation-in-javascript/)”, HackerOne Code.
+- [eslint-plugin-jsdoc](https://github.com/gajus/eslint-plugin-jsdoc), GitHub.
 
 ---
 

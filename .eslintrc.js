@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb-base', 'prettier'],
+  extends: ['airbnb-base', 'prettier', 'plugin:jsdoc/recommended'],
   ignorePatterns: ['webpack.*.js', 'dist'],
   env: {
     browser: true,
