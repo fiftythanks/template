@@ -7,6 +7,10 @@ module.exports = {
   entry: {
     app: './src/index.js',
   },
+  resolve: {
+    extensions: ['.mjs', '.js', '.json'],
+    mainFiles: ['index'],
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Production',
@@ -52,6 +56,12 @@ module.exports = {
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
+      },
+      {
+        test: /\.m?js$/,
+        resolve: {
+          fullySpecified: false,
+        },
       },
     ],
   },
