@@ -8,7 +8,7 @@
   - eslint-plugin-import.
   - eslint-webpack-plugin. — To add JS linting as a pre-build step.
 - Prettier v3.5.2 (`"singleQuote": true`).
-- husky and lint-staged for the pre-commit hook.
+- husky and lint-staged for pre-commit hooks.
 - Stylelint for CSS linting.
   - stylelint-config-sass-guidelines. — To support Sass files and lint according to the [Sass Guidelines](https://sass-guidelin.es).
   - PostCSS. — As a dependency for stylelint-config-sass-guidelines.
@@ -57,11 +57,13 @@ Instructions for building from scratch:
 - Jest.
 - babel-jest.
 - @types/jest. — For VSCode intellisense.
+- jest-environment-jsdom.
 
 Instructions for building from scratch:
 
 - “[Getting Started](https://jestjs.io/docs/getting-started#using-babel)” (sections “[Generate a basic configuration file](https://jestjs.io/docs/getting-started#generate-a-basic-configuration-file)” and “[Using Babel](https://jestjs.io/docs/getting-started#using-babel)”), Jest.
 - “[Intellisense for Jest not working in VS code](https://stackoverflow.com/questions/57874114/intellisense-for-jest-not-working-in-vs-code)”, StackOverflow.
+- “[DOM Manipulation](https://jestjs.io/docs/tutorial-jquery)”, Jest.
 
 **Sass:**
 
@@ -99,4 +101,4 @@ Instructions for building from scratch:
 
 When using the template, you should remove all unnecessary webpack plugins for asset management.
 
-I also configured some config files to work properly with .mjs extensions, so if you decide to use this template, you can use the .mjs extension with your ESM, even for tests.
+I also configured some config files to work properly with .mjs extensions, so if you decide to use this template, you can use the .mjs extension with your ESM, even for tests .
