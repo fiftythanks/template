@@ -1,4 +1,4 @@
 import './styles/main.scss';
-// import Button from './components';
-// import { Footer, Header } from './layout';
-// import Home from './pages';
+import './components';
+import './layout';
+import './pages';
