@@ -54,12 +54,14 @@ Instructions for building from scratch:
 
 **Jest:**
 
-- Jest
-- babel-jest
+- Jest.
+- babel-jest.
+- @types/jest. — For VSCode intellisense.
 
 Instructions for building from scratch:
 
 - “[Getting Started](https://jestjs.io/docs/getting-started#using-babel)” (sections “[Generate a basic configuration file](https://jestjs.io/docs/getting-started#generate-a-basic-configuration-file)” and “[Using Babel](https://jestjs.io/docs/getting-started#using-babel)”), Jest.
+- “[Intellisense for Jest not working in VS code](https://stackoverflow.com/questions/57874114/intellisense-for-jest-not-working-in-vs-code)”, StackOverflow.
 
 **Sass:**
 
@@ -96,3 +98,5 @@ Instructions for building from scratch:
 ---
 
 When using the template, you should remove all unnecessary webpack plugins for asset management.
+
+I also configured some config files to work properly with .mjs extensions, so if you decide to use this template, you can use the .mjs extension with your ESM, even for tests.
