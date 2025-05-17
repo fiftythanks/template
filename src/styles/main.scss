@@ -2,6 +2,9 @@
 
 @forward 'vendors';
 @forward 'base';
+@forward 'layout';
+@forward 'components';
+@forward 'pages';
 @forward 'themes';
 
 /**
@@ -13,12 +16,6 @@
  * Reset.....................A CSS reset.
  * Typography................Typography styles.
  * 
- * THEMES
- * Default...................Default-theme styles.
- * 
- * VENDORS
- * ..........................CSS from external libraries and frameworks   .
- * 
  * COMPONENTS
  * Button....................An example button component.
  * 
@@ -26,6 +23,12 @@
  * Footer....................Footer styles.
  * Header....................Header styles.
  * 
- * PAGES 
+ * PAGES
  * Home......................Homepage-specific styles.
+ * 
+ * THEMES
+ * Default...................Default-theme styles.
+ * 
+ * VENDORS
+ * ..........................CSS from external libraries and frameworks   .
  */
