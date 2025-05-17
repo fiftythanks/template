@@ -11,6 +11,7 @@
 - husky and lint-staged for pre-commit hooks.
 - Stylelint for CSS linting.
   - stylelint-config-sass-guidelines. — To support Sass files and lint according to the [Sass Guidelines](https://sass-guidelin.es).
+  - stylelint-config-concentric-order. — To check declaration order according to Concentric CSS.
   - PostCSS. — As a dependency for stylelint-config-sass-guidelines.
   - stylelint-webpack-plugin. — To add CSS linting as a pre-build step.
 
