@@ -45,6 +45,7 @@
     "sass-loader": "^16.0.5",
     "style-loader": "^4.0.0",
     "stylelint": "^16.19.1",
+    "stylelint-config-concentric-order": "^5.2.1",
     "stylelint-config-sass-guidelines": "^12.1.0",
     "stylelint-webpack-plugin": "^5.0.1",
     "webpack": "^5.98.0",
