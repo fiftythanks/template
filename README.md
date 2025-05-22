@@ -35,12 +35,14 @@ Instructions for building from scratch:
 - `html-loader`
 - `webpack-dev-server`
 - `webpack-merge`
+- `clean-webpack-plugin` — Cleans the output directory (/dist) before each build to prevent outdated files.
 
 Instructions for building from scratch:
 
 - “[webpack](https://www.theodinproject.com/lessons/javascript-webpack)”, The Odin Project. — For basic webpack installation and configuration.
 - “[Asset Management](https://webpack.js.org/guides/asset-management/)”, webpack. — For more information on asset management.
 - “[Production](https://webpack.js.org/guides/production/)”, webpack. ­— For dividing webpack.config.js in three separate configs.
+- [`clean-webpack-plugin`](https://www.npmjs.com/package/clean-webpack-plugin), npm.
 
 **Babel:**
 
