@@ -19,8 +19,8 @@ Instructions for building from scratch:
 
 - “[Linting](https://www.theodinproject.com/lessons/node-path-javascript-linting)”, The Odin Project.
 - [`eslint-config-airbnb-base`](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base), Airbnb, GitHub.
-- [ESLint v8.57.1](https://eslint.org/docs/v8.x/use/getting-started), ESLint.
-- [Prettier](https://prettier.io/docs/install), Prettier.
+- “[Getting Started](https://eslint.org/docs/v8.x/use/getting-started)”, ESLint.
+- “[Install](https://prettier.io/docs/install)”, Prettier.
 - [`lint-staged`](https://github.com/lint-staged/lint-staged#configuration), lint-staged, GitHub.
 - “[Getting Started](https://stylelint.io/user-guide/get-started)”, Stylelint.
 - [`stylelint-config-sass-guidelines`](https://www.npmjs.com/package/stylelint-config-sass-guidelines), npm.
