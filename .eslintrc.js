@@ -10,7 +10,7 @@
 
 module.exports = {
   extends: ['airbnb-base', 'prettier', 'plugin:jsdoc/recommended'],
-  ignorePatterns: ['webpack.*.js', 'dist', '*/**/*.test.mjs'] /* [1] */,
+  ignorePatterns: ['webpack.*.js', 'dist', '**/*.test.mjs'] /* [1] */,
 
   env: {
     browser: true,
